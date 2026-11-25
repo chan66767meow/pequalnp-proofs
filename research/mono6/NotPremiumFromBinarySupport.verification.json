@@ -1,0 +1,17 @@
+{
+  "file": ".pnp/methods/NotPremiumFromBinarySupport.lean",
+  "bytes": 18018,
+  "lines": 408,
+  "sha256": "d2d66d6ec796a53f1fd69b93adc11d9c210c665840ae3a5d6d8b05a5f2d48e7c",
+  "lean_check_exit_code": 0,
+  "diagnostics": [],
+  "checked_at_utc": "2026-11-25 17:39:49",
+  "imports": [
+    "PEqualNP.Defs"
+  ],
+  "proved": [
+    "essential_binary_bound",
+    "transfer_of_ao_size_le_inputs"
+  ],
+  "not_claimed": "AO size <= n+1 extension"
+}

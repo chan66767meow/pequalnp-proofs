@@ -1,0 +1,18 @@
+{
+  "generic_support_checked": true,
+  "named_unleased_gap_proofs": 0,
+  "checks": [
+    {
+      "file": "SyntheticAnd6.lean",
+      "exit_code": 0,
+      "elapsed_seconds": 5.783908413000063,
+      "sha256": "13b86f90a61ea6040f981bd49108a21398ce16798a10a297b25091f0da4bbbbc"
+    },
+    {
+      "file": "SyntheticThreshold.lean",
+      "exit_code": 0,
+      "elapsed_seconds": 9.92269220900016,
+      "sha256": "78b110661639c8a0dc94a6d785a6833704b4db9beb4db7e6d456baa27026a4ec"
+    }
+  ]
+}
