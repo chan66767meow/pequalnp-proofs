@@ -1,0 +1,13 @@
+{
+  "exact_task": "L-meta-15074",
+  "local_lean_kernel_passed": true,
+  "lease_issued": true,
+  "lease": "04e137a0-bf05-4f10-84bf-89e66aa90e5c",
+  "official_check_exit": 3,
+  "official_check_state": "pr_open",
+  "earlier_pending_pr": 19040,
+  "official_check_message": "stopped: this step is no longer open (pr_open). A pull request for this step is already waiting for its check. Ask /desk/next for an open one.",
+  "submitted_upstream": false,
+  "accepted": false,
+  "updated_at_utc": "2026-11-25T18:34:11.873930+00:00"
+}

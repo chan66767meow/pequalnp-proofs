@@ -1,0 +1,14 @@
+{
+  "file": ".pnp/methods/multi-output-probe/TwoOutputConjunction.lean",
+  "namespace": "PEqualNP.Research.TwoOutputConjunction",
+  "exact_corollary": "checkedTwoOutputs",
+  "exact_catalog_proposition": "L-meta-15074",
+  "kernel_checked": true,
+  "exit_code": 0,
+  "diagnostics": [],
+  "sha256": "52ab3dd8fc5c219594a76b8b59d05337f46c9862b2bdaed6b8ec9ce67ef71843",
+  "checked_at": "2026-11-25T18:30:09.367273+00:00",
+  "command": "source .pnp/env.sh; cd lean; timeout 90 flock ../.pnp/lean-build.lock ../tools/bin/lake env lean ../.pnp/methods/multi-output-probe/TwoOutputConjunction.lean",
+  "framework_source": "https://github.com/open-goat/pequalnp-proofs/pull/17808",
+  "proof_summary": "Conjoin the two designated output wires using one appended AND gate; a six-binary-gate rejection certificate contradicts any original circuit with at most five total gates."
+}

@@ -1,0 +1,268 @@
+{
+  "schema": "sampled-binary-lower-v1",
+  "framework_source": "https://github.com/open-goat/pequalnp-proofs/pull/17808",
+  "status": "exhaustive_rejection",
+  "truth_table": "0xeca0cc80a8a00000",
+  "binary_bound": 6,
+  "rows": [
+    "0xeb8602b4ef86dfbc",
+    "0xcf71bdfbdff3bdf",
+    "0xa4d5fc99e6d5feb9",
+    "0x3b4a71f13b7b71f7",
+    "0x4638fd2146bafd31",
+    "0xb539262ebd7d26ef"
+  ],
+  "analysis": {
+    "positive": [
+      21,
+      23,
+      27,
+      29,
+      31,
+      39,
+      42,
+      43,
+      46,
+      47,
+      53,
+      55,
+      58,
+      59,
+      61,
+      62,
+      63
+    ],
+    "negative": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      24,
+      25,
+      26,
+      28,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      40,
+      41,
+      44,
+      45,
+      48,
+      49,
+      50,
+      51,
+      52,
+      54,
+      56,
+      57,
+      60
+    ],
+    "monotone": true,
+    "essential_inputs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "minimal_true": [
+      21,
+      27,
+      39,
+      42
+    ],
+    "maximal_false": [
+      15,
+      30,
+      45,
+      51,
+      54,
+      57,
+      60
+    ]
+  },
+  "sample_validation": {
+    "positive_samples": [
+      62,
+      42,
+      43,
+      39,
+      31,
+      61,
+      42,
+      47,
+      27,
+      39,
+      53,
+      23,
+      31,
+      62,
+      29,
+      21,
+      46,
+      27,
+      39,
+      58,
+      62,
+      58,
+      46,
+      23,
+      43,
+      29,
+      55,
+      43,
+      42,
+      47,
+      21,
+      39
+    ],
+    "negative_samples": [
+      30,
+      34,
+      35,
+      38,
+      15,
+      57,
+      10,
+      15,
+      26,
+      35,
+      52,
+      22,
+      30,
+      60,
+      28,
+      20,
+      38,
+      11,
+      7,
+      56,
+      54,
+      50,
+      14,
+      7,
+      41,
+      25,
+      54,
+      11,
+      40,
+      45,
+      17,
+      37
+    ],
+    "input_masks_distinct": true,
+    "all_64_sample_labels_correct": true
+  },
+  "attempts": [
+    {
+      "cpp": {
+        "status": "exhaustive_rejection",
+        "bound": 6,
+        "elapsed_seconds": 0.00108648,
+        "nodes": 85,
+        "branches": 2536,
+        "cut_rejections": 2452,
+        "memo_hits": 29,
+        "memo_entries": 56
+      },
+      "python": {
+        "status": "exhaustive_rejection",
+        "bound": 6,
+        "elapsed_seconds": 0.0018088189999616588,
+        "nodes": 85,
+        "cache": {
+          "hits": 16,
+          "misses": 85,
+          "maxsize": 100000,
+          "currsize": 85
+        },
+        "implementation": "literal_python_list_order"
+      }
+    }
+  ],
+  "seed": 0,
+  "elapsed_seconds": 0.004228048000186391,
+  "kernel_checked": false,
+  "meaning": "A conjectured lower bound of seven binary gates for the conjunction of two shared-input outputs; not a Lean proof until checked.",
+  "ao_witness": {
+    "gates": [
+      {
+        "op": "and",
+        "inputs": [
+          0,
+          2
+        ]
+      },
+      {
+        "op": "and",
+        "inputs": [
+          1,
+          3
+        ]
+      },
+      {
+        "op": "or",
+        "inputs": [
+          6,
+          7
+        ]
+      },
+      {
+        "op": "and",
+        "inputs": [
+          0,
+          4
+        ]
+      },
+      {
+        "op": "and",
+        "inputs": [
+          1,
+          5
+        ]
+      },
+      {
+        "op": "or",
+        "inputs": [
+          9,
+          10
+        ]
+      },
+      {
+        "op": "and",
+        "inputs": [
+          8,
+          11
+        ]
+      }
+    ],
+    "output": 12,
+    "gate_count": 7,
+    "all_64_inputs_correct": true
+  }
+}
